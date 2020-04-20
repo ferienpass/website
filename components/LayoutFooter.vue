@@ -24,11 +24,6 @@
           <icon-github class="w-6 h-6"></icon-github>
         </a>
       </div>
-      <div class="mt-8">
-        <p class="text-center text-base leading-6 text-gray-400">
-          &copy; {{ currentDate.getFullYear() }} Richard Henkenjohann
-        </p>
-      </div>
     </div>
   </div>
 </template>
@@ -43,7 +38,6 @@
     components: {IconGithub, IconEmail, LinkEmail},
     data() {
       return {
-        currentDate: new Date,
         navigation: [
           {
             href: '/',
@@ -65,4 +59,3 @@
     }
   }
 </script>
-
