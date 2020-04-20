@@ -152,9 +152,9 @@
         </h3>
       </template>
       <template #features>
-        <feature-vertical title="Eigenes Design" icon-class="bg-blue-500">
-          Der Ferienpass kann komplett nach Ihren Bedürfnissen gestaltet werden, so, dass er Ihren
-          Vorstellungen bzw. zum Gestaltungsbild Ihrer städtischen Webseite passt.
+        <feature-vertical title="Individualisierung und eigenes Design" icon-class="bg-blue-500">
+          Der Ferienpass wird in enger Zusammenarbeit erstellt und kann komplett nach Ihren Bedürfnissen gestaltet
+          werden, so, dass er Ihren Vorstellungen entspricht und zu Ihrem Gestaltungsbild passt.
 
           <template #icon>
             <icon-sparkles class="w-6 h-6"></icon-sparkles>
@@ -167,7 +167,7 @@
           Ihren Datenschutzmaßnahmen gerecht werden.
 
           <template #icon>
-            <icon-sparkles class="w-6 h-6"></icon-sparkles>
+            <icon-adjustments class="w-6 h-6"></icon-adjustments>
           </template>
         </feature-vertical>
       </template>
@@ -191,9 +191,11 @@
   import BlockHeadline from "./BlockHeadline";
   import BlockFeaturesOffsetGrid from "./BlockFeaturesOffsetGrid";
   import IconChartPie from "./IconChartPie";
+  import IconAdjustments from "./IconAdjustments";
 
   export default {
     components: {
+      IconAdjustments,
       IconChartPie,
       BlockFeaturesOffsetGrid,
       BlockHeadline,
