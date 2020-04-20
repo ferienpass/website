@@ -50,7 +50,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-sm leading-5 text-gray-700">
-                      Durchführung von Fokusgruppe und Schlungs-Workshop
+                      Durchführung von Gruppendiskussionen und Schulung-Workshops
                     </p>
                   </li>
                   <li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">

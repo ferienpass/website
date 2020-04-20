@@ -5,8 +5,7 @@
 
       <template #teaser>
         Mit <span class="text-blue-400">ferienpass</span><span class="text-tint">.</span><span
-        class="text-blue-700">online</span> reduziert sich die Ferienplanung für die Eltern reduziert sich auf ein
-        Minimum.
+        class="text-blue-700">online</span> reduziert sich die Ferienplanung für die Eltern sich auf ein Minimum.
       </template>
     </block-headline>
 

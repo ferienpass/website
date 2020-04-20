@@ -36,7 +36,7 @@
       </feature-vertical>
 
       <feature-vertical title="Eltern" icon-class="bg-tint" class="mt-10 sm:mt-0">
-        Die Eltern können den Ferienpass entspannt in der Kaffeepause, unterwegs oder zuhause "durchblättern".
+        Die Eltern können den Ferienpass entspannt in der Kaffeepause, unterwegs oder zuhause „durchblättern“.
         Anmeldungen werden zentral und mit einem Klick durchgeführt. Änderungen und Wartelisten-Zusagen kommen
         automatisch per E-Mail oder SMS.
 
