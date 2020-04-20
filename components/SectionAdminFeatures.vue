@@ -81,10 +81,9 @@
             </h4>
             <p class="mt-3 text-lg leading-7 text-gray-500">
               Mit der Datenbank für die Ferienpass-Angebote hört es nicht auf. <span
-              class="text-blue-400">ferienpass</span><span
-              class="text-tint">.</span><span
-              class="text-blue-700">online</span> denkt weiter und bietet Ihnen notwendige
-              Datei-Exportschnittstellen und aufschlussreiche Statistiken.
+              class="text-blue-400">ferienpass</span><span class="text-tint">.</span><span
+              class="text-blue-700">online</span> denkt weiter und bietet Ihnen notwendige Datei-Exportschnittstellen
+              und aufschlussreiche Statistiken.
             </p>
           </template>
 
@@ -120,13 +119,11 @@
                 </feature-horizontal>
               </li>
               <li class="mt-10">
-                <feature-horizontal title="Schöne Statistiken" icon-class="bg-blue-500">
-                  Mit <span class="text-blue-400">ferienpass</span><span
-                  class="text-tint">.</span><span
-                  class="text-blue-700">online</span> lernen Sie Ihren Ferienpass besser
-                  kennen: Wie viele Kinder nahmen teil? Welche Altersgruppen sind am meisten
-                  vertreten? Welche Angebote sind am beliebtesten? Wie ist die Auslastung der
-                  Angebote?
+                <feature-horizontal title="Aufschlussreiche Statistiken" icon-class="bg-blue-500">
+                  Mit <span class="text-blue-400">ferienpass</span><span class="text-tint">.</span><span
+                  class="text-blue-700">online</span> lernen Sie Ihren Ferienpass besser kennen: Wie viele Kinder nahmen
+                  teil? Welche Altersgruppen sind am meisten vertreten? Welche Angebote sind am beliebtesten? Wie ist
+                  die Auslastung der Angebote?
 
                   <template #icon>
                     <icon-chart-pie class="h-6 w-6"></icon-chart-pie>
