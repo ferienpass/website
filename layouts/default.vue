@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="top">
     <layout-header></layout-header>
     <nuxt class="pt-12 md:pt-16"></nuxt>
     <layout-footer></layout-footer>
