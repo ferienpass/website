@@ -1,12 +1,12 @@
 <template>
-  <a :name="name"></a>
+  <a :id="id" :name="id"></a>
 </template>
 
 
 <script>
   export default {
     props: {
-      name: String
+      id: String
     }
   }
 </script>

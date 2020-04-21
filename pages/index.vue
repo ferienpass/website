@@ -3,7 +3,7 @@
 
     <section-hero></section-hero>
 
-    <link-anchor name="funktionen"></link-anchor>
+    <link-anchor id="funktionen"></link-anchor>
 
     <section-intro></section-intro>
 
@@ -17,7 +17,7 @@
 
     <section-parent-features></section-parent-features>
 
-    <link-anchor name="feedback"></link-anchor>
+    <link-anchor id="feedback"></link-anchor>
 
     <section-parent-stats></section-parent-stats>
 
@@ -25,11 +25,11 @@
 
 <!--    <section-customer-quote></section-customer-quote>-->
 
-    <link-anchor name="preisgestaltung"></link-anchor>
+    <link-anchor id="preisgestaltung"></link-anchor>
 
     <section-pricing></section-pricing>
 
-    <link-anchor name="blog"></link-anchor>
+    <link-anchor id="blog"></link-anchor>
 
     <section-blog></section-blog>
 
