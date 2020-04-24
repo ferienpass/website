@@ -75,8 +75,9 @@
     },
     head () {
       return {
+        title: 'ferienpass.online • Ferienpass-Software',
         meta: [
-          { hid: 'description', name: 'description', content: 'Ferienpass-Software mit Online-Anmeldesystem für Gemeinden' }
+          { hid: 'description', name: 'description', content: 'Die Ferienpass-Software ist ein Online-Katalog von Freizeitangeboten und bietet Eltern wie Veranstalter*innen eine intuitive Benutzeroberfäche.' }
         ]
       }
     }
