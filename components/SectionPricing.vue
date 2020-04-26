@@ -18,7 +18,7 @@
               <p class="mt-6 text-base leading-6 text-gray-500">
                 In enger Zusammenarbeit entwickeln wir die Ferienpass-Software, die zu Ihnen passt. Die
                 Ferienpass-Software wird einmalig gekauft und auf Ihren Servern installiert. Dadurch ist eine nahtlose
-                Integration in ihre Infrastruktur und Abläufe möglich.
+                Integration in Ihre Infrastruktur und Abläufe möglich.
               </p>
               <div class="mt-8">
                 <div class="flex items-center">

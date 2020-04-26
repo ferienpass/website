@@ -5,7 +5,7 @@ author:
   avatar: /images/richard-avatar.jpg
 title: Die Erstellung von Drucklayouts erneut vereinfacht
 image: /images/apple-computer-desk-devices-326501.jpg
-teaser: Bisher empfohlen wir InDesign, um die Drucklayouts händisch zu erstellen. Heute erzeugen wir druckfertige PDFs auf Knopfdruck.
+teaser: Bisher empfahlen wir InDesign, um die Drucklayouts händisch zu erstellen. Heute erzeugen wir druckfertige PDFs auf Knopfdruck.
 tags:
  - Neue Funktion
 ---

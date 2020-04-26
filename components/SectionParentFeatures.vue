@@ -58,7 +58,7 @@
       <feature-vertical title="Datensparsamkeit" icon-class="bg-blue-500" class="mt-10 sm:mt-0">
         Bei der Registrierung der Eltern werden nur notwendige Daten abgefragt. Veranstalter erhalten die Kontaktdaten
         des Kindes, aber nie den vollen Namen oder das Geburtsdatum. Nach der Ferienzeit werden alle personenbezogenen
-        gelöscht.
+        Daten gelöscht.
 
         <template #icon>
           <icon-lock-closed class="w-8 h-8"></icon-lock-closed>
