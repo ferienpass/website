@@ -25,6 +25,13 @@ module.exports = {
     }
   },
   variants: {},
+  purge: [
+    'components/**/*.vue',
+    'layouts/**/*.vue',
+    'pages/**/*.vue',
+    'plugins/**/*.js',
+    'nuxt.config.js'
+  ],
   plugins: [
     require('@tailwindcss/ui'),
   ]
