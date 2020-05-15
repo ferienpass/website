@@ -19,7 +19,7 @@
               <span class="text-blue-400">ferienpass</span><span class="text-tint">.</span><span
               class="text-blue-700">online</span> ist die Ferienpass-Software für Gemeinden, die ein
               Freizeitprogramm für Kinder anbieten. Die Ferienpass-Software ist ein Online-Katalog von
-              Freizeitangeboten und bietet Eltern wie Veranstalter*innen eine intuitive Benutzeroberfäche.
+              Freizeitangeboten und bietet Eltern wie Veranstalter*innen eine intuitive Benutzeroberfläche.
             </p>
             <div class="mt-5 sm:mt-12 sm:flex sm:justify-center lg:justify-start">
               <button-blue href="#funktionen">

@@ -41,16 +41,16 @@ Stelle das Layout zusammenbrechen ließen. Nichtsdestotrotz kann mit diesem Form
 erstellt werden. InDesign importiert die Datei und setzt die Daten automatisch in die vorher definierte Struktur.
 
 Damit der Datei-Import funktioniert, muss das InDesign-Layout einmal vorbereitet werden und die Texte "getaggt" werden. 
-Dafür erstellt man eine Beispielseite und markiert die Texte, die einem Feld aus der Datenbank ensprechen. Eine 
+Dafür erstellt man eine Beispielseite und markiert die Texte, die einem Feld aus der Datenbank entsprechen. Eine 
 getaggte InDesign-Datei sieht ungefähr so aus: Jede farbige eckige Klammer ist ein Feld, das einem Tag aus der 
-XML-Datei enspricht. Diese Vorlage muss nur einmalig erstellt werden und kann die darauffolgenden Jahre unverändert 
+XML-Datei entspricht. Diese Vorlage muss nur einmalig erstellt werden und kann die darauffolgenden Jahre unverändert 
 weiter verwendet werden.
 
 ![XML-Struktur in InDesign](/images/indd-xml-screenshot.jpg)
 
 Hat man die Vorlage einmalig erstellt, kann man InDesign den Rest der Arbeit erledigen lassen. Ein "XML importieren" 
 lädt das XML und packt die Texte in die Textfelder. InDesign erstellt automatisch neue Seiten, falls erforderlich. Als 
-letzen Schritt müssen nur noch einzelne Objekte angefasst werden, und ggf. Texte gekürzt werden, die nicht in die 
+letzten Schritt müssen nur noch einzelne Objekte angefasst werden, und ggf. Texte gekürzt werden, die nicht in die 
 Textfelder passen.
 
 ![Animation über InDesign-Import](/images/indd-import.gif)
@@ -58,7 +58,7 @@ Textfelder passen.
 Der große Vorteil dieser Methode ist, dass das alte Drucklayout übernommen werden kann und die Gestaltung der Seiten 
 frei erfolgen kann.
 
-Alle Kunden von ferienpass.online legen Wert auf eine qualitative Druckversion des Ferienpasses, und die einzige 
+Alle Kunden von ferienpass.online legen Wert auf eine qualitative Druckversion des Ferienpasses und die einzige 
 Möglichkeit, dem gerecht zu werden, ist, die Layouts händisch über ein solches Layoutprogramm erstellen zu lassen.
 
 ## Wechsel zum PDF-Export
@@ -68,7 +68,7 @@ InDesign hatte. Nun hätte man die Erstellung der Drucklayouts auch in die Händ
 Erstellung der einzelnen Seiten war schon immer sehr zeitaufwendig.
 
 Aus diesem Grund haben wir eine Exportschnittstelle programmiert, die alle Ferienpass-Angebote als druckfertiges PDF 
-exportiert. Das individuelle und ursprügliche Layout wurde dabei übernommen.
+exportiert. Das individuelle und ursprüngliche Layout wurde dabei übernommen.
 
 Um das Ganze zum Laufen zu bringen, muss das Drucklayout erstmal in HTML-Form gepackt werden:
 
@@ -122,8 +122,8 @@ Ob der XML-Export oder die PDF-Erstellung besser geeignet ist, muss individuell 
 Fest steht, dass mit dem PDF-Export hochwertige Druck-PDFs erstellt werden können. Dies passiert ohne menschliches 
 Zutun. Nachteilig ist, dass die exportierten PDFs nicht mehr bearbeitet werden können, und inhaltliche Anpassungen über 
 die Verwaltungsoberfläche durchgeführt werden müssen, bevor der Export gestartet wird. Außerdem müssen die anderen 
-Inhaltsseiten, wie das Vorwort oder die Umschlagsseiten, weiterhin händisch erstellt werden. Hier kann man den Workflow 
-aufteilen, die Umschlagsseiten von einer Druckerei erstellen lassen und die Angebotsseiten selbst liefern.
+Inhaltsseiten, wie das Vorwort oder die Umschlagseiten, weiterhin händisch erstellt werden. Hier kann man den Workflow 
+aufteilen, die Umschlagseiten von einer Druckerei erstellen lassen und die Angebotsseiten selbst liefern.
 
 Der XML-Export ist eher geeignet, wenn besondere Layouts gewünscht sind. Denn über InDesign können Texte des Angebots 
 geändert werden oder Elemente ergänzt werden, die bei dem automatischen PDF-Export nicht möglich sind.

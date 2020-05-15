@@ -10,7 +10,7 @@
 
       <template #teaser>
         Bei einer Datenbank für die Freizeitangebote hört es nicht auf. Eltern, Veranstalter*innen und
-        Verwaltungsmitarbeiter*innen haben völlig veschiedene Anforderungen an ein Ferienpass-Programm.
+        Verwaltungsmitarbeiter*innen haben völlig verschiedene Anforderungen an ein Ferienpass-Programm.
       </template>
     </block-headline>
 
