@@ -18,7 +18,7 @@
     "prismjs": "^1.20.0"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.0.0",
+    "@nuxtjs/tailwindcss": "^3.0.0",
     "node-sass": "^4.13.1",
     "sass-loader": "^9.0.0"
   }
