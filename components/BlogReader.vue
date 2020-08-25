@@ -38,7 +38,9 @@
 
             <hr class="mt-10 mb-10">
 
-            <component :is="blogArticle"></component>
+            <div class="prose max-w-none">
+              <component :is="blogArticle"></component>
+            </div>
 
           </div>
         </div>
@@ -92,54 +94,6 @@
 
       img {
         max-width: 2000px;
-      }
-    }
-  }
-
-  .markdown-body {
-    hyphens: auto;
-
-    h2 {
-      @apply text-2xl leading-8 font-bold tracking-tight text-gray-900 mb-2;
-
-      &:not(:first-child) {
-        @apply mt-10;
-      }
-    }
-
-    h3 {
-      @apply text-lg font-medium tracking-tight text-gray-900 mt-2 leading-5 mb-1;
-
-      &:not(:first-child) {
-        @apply mt-2;
-      }
-    }
-
-    p {
-      @apply text-gray-500;
-
-      & + p {
-        @apply mt-3;
-      }
-    }
-
-    img {
-      @apply mt-8 mb-8;
-    }
-
-    p + pre, pre + p {
-      @apply mt-8;
-    }
-
-    p > a:first-child:last-child {
-      @apply mt-4 mb-4 inline-block px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md shadow transition duration-150 ease-in-out text-blue-700 bg-blue-100;
-
-      &:hover {
-        @apply text-blue-600 bg-blue-50;
-      }
-
-      &:focus {
-        @apply outline-none shadow-outline;
       }
     }
   }

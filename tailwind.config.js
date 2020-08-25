@@ -22,6 +22,20 @@ module.exports = {
         },
         tint: '#E08B2D',
       },
+      typography: (theme) => ({
+        default: {
+          css: {
+            a: {
+              color: theme('colors.blue.500'),
+              'text-docoration': 'none',
+              '&:hover': {
+                color: theme('colors.blue.400'),
+                'text-docoration': 'underline'
+              },
+            },
+          }
+        }
+      }),
     }
   },
   variants: {},
@@ -34,5 +48,6 @@ module.exports = {
   ],
   plugins: [
     require('@tailwindcss/ui'),
+    require('@tailwindcss/typography'),
   ]
 };
