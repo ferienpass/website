@@ -167,6 +167,29 @@
             <icon-adjustments class="w-6 h-6"></icon-adjustments>
           </template>
         </feature-vertical>
+        <feature-vertical title="Offenes Open-Source-System" icon-class="bg-blue-500">
+          Der komplette Quellcode von ferienpass.online ist Open-Source. Dies bedeutet, dass der Quellcode jederzeit
+          eingesehen werden. Zu den vorteilen zählen erhöhte Sicherheit und kein Vendor-Lock-In.
+
+          <a href="/blog/2020-07-open-source" target="_blank"
+             class="mt-4 block font-medium text-gray-500 underline hover:no-underline">Erfahren sie mehr über den
+            Open-Source-Ansatz von ferienpass.online</a>
+
+          <template #icon>
+            <icon-code class="w-6 h-6"></icon-code>
+          </template>
+        </feature-vertical>
+        <feature-vertical title="Barrierefreier Webauftritt" icon-class="bg-blue-500" class="mt-10 sm:mt-0">
+          Bei der Gestaltung der Webseite wird auf ausreichend Kontrast und Kompatibilität mit Screen-Readern geachtet.
+          Mit Software wird die Barrierefreiheit der Webseite überprüft. Das ist übrigens Pflicht nach
+          <a href="https://bik-fuer-alle.de/eu-richtlinie-barrierefreie-webangebote-oeffentlicher-stellen.html"
+             class="underline hover:no-underline"
+             target="_blank">EU-Richtlinie 2016/2012</a>!
+
+          <template #icon>
+            <icon-desktop-computer class="w-6 h-6"></icon-desktop-computer>
+          </template>
+        </feature-vertical>
       </template>
     </block-features-offset-grid>
 
@@ -189,9 +212,13 @@
   import BlockFeaturesOffsetGrid from "./BlockFeaturesOffsetGrid";
   import IconChartPie from "./IconChartPie";
   import IconAdjustments from "./IconAdjustments";
+  import IconDesktopComputer from "./IconDesktopComputer";
+  import IconCode from "./IconCode";
 
   export default {
     components: {
+      IconCode,
+      IconDesktopComputer,
       IconAdjustments,
       IconChartPie,
       BlockFeaturesOffsetGrid,

@@ -25,8 +25,8 @@
               <button-blue href="#funktionen">
                 <span class="text-lg px-4 py-1">Mehr erfahren</span>
               </button-blue>
-              <button-light class="mt-3 sm:mt-0 sm:ml-3" href="https://demo.ferienpass.online/" new-window>
-                <span class="text-lg px-4 py-1">Online-Demo</span>
+              <button-light class="mt-3 sm:mt-0 sm:ml-3" href="#preisgestaltung">
+                <span class="text-lg px-4 py-1">Kontakt aufnehmen</span>
               </button-light>
             </div>
           </div>
