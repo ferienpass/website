@@ -3,7 +3,7 @@ date: 2020-07-21
 author: 
   name: Richard Henkenjohann
   avatar: /images/richard-avatar.jpg
-title: Wie es zum Online-Ferienpass kam
+title: ferienpass.online ist Open-Source-Software
 image: /images/richy-great-MAYEkmn7G6E-unsplash.jpg
 teaser: Der komplette Quellcode von ferienpass.online ist Open-Source. Was das bedeutet und welche Vorteile das bringt.
 tags:
@@ -30,6 +30,8 @@ einer anderen Software zu migrieren.
 viele Augen gibt, die nach Risiken suchen.
 6. **Einfacher zu auditieren.** Die Verfügbarkeit des Quellcodes ermöglicht es, Sicherheits- und Leistungsstandards zu
 überprüfen. Die eingebaute Offenheit und Transparenz resultiert in weitaus größere Flexibilität.
+7. **Kein Vendor-Lock-In.** Im Zweifel sind Sie nicht abhängig von der Softwarefirma, die die Webseite erstellt, sondern
+es besteht die Möglichkeit, dass die Weiterentwicklung intern passiert oder von anderer externer Stelle passiert.
 
 ## Open-Source aber nicht kostenfrei
 
