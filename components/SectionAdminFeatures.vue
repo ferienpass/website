@@ -172,7 +172,7 @@
           eingesehen werden. Zu den vorteilen zählen erhöhte Sicherheit und kein Vendor-Lock-In.
 
           <a href="/blog/2020-07-open-source" target="_blank"
-             class="mt-4 block font-medium text-gray-500 underline hover:no-underline">Erfahren sie mehr über den
+             class="mt-4 block font-medium text-gray-500 underline hover:no-underline">Erfahren Sie mehr über den
             Open-Source-Ansatz von ferienpass.online</a>
 
           <template #icon>
@@ -185,6 +185,10 @@
           <a href="https://bik-fuer-alle.de/eu-richtlinie-barrierefreie-webangebote-oeffentlicher-stellen.html"
              class="underline hover:no-underline"
              target="_blank">EU-Richtlinie 2016/2012</a>!
+
+          <a href="/blog/2020-10-barrierefreier-auftritt" target="_blank"
+             class="mt-4 block font-medium text-gray-500 underline hover:no-underline">Erfahren Sie mehr darüber, wie
+            wir barrierearme Webauftritte erstellen</a>
 
           <template #icon>
             <icon-desktop-computer class="w-6 h-6"></icon-desktop-computer>
@@ -199,40 +203,40 @@
 
 <script>
 
-  import FeatureHorizontal from "./FeatureHorizontal";
-  import IconCalendar from "./IconCalendar";
-  import IconScale from "./IconScale";
-  import IconCloudDownload from "./IconCloudDownload";
-  import IconDocumentDownload from "./IconDocumentDownload";
-  import FeatureVertical from "./FeatureVertical";
-  import IconSparkles from "./IconSparkles";
-  import BlockFeaturesImageLeft from "./BlockFeaturesImageLeft";
-  import BlockFeaturesImageRight from "./BlockFeaturesImageRight";
-  import BlockHeadline from "./BlockHeadline";
-  import BlockFeaturesOffsetGrid from "./BlockFeaturesOffsetGrid";
-  import IconChartPie from "./IconChartPie";
-  import IconAdjustments from "./IconAdjustments";
-  import IconDesktopComputer from "./IconDesktopComputer";
-  import IconCode from "./IconCode";
+import FeatureHorizontal from "./FeatureHorizontal";
+import IconCalendar from "./IconCalendar";
+import IconScale from "./IconScale";
+import IconCloudDownload from "./IconCloudDownload";
+import IconDocumentDownload from "./IconDocumentDownload";
+import FeatureVertical from "./FeatureVertical";
+import IconSparkles from "./IconSparkles";
+import BlockFeaturesImageLeft from "./BlockFeaturesImageLeft";
+import BlockFeaturesImageRight from "./BlockFeaturesImageRight";
+import BlockHeadline from "./BlockHeadline";
+import BlockFeaturesOffsetGrid from "./BlockFeaturesOffsetGrid";
+import IconChartPie from "./IconChartPie";
+import IconAdjustments from "./IconAdjustments";
+import IconDesktopComputer from "./IconDesktopComputer";
+import IconCode from "./IconCode";
 
-  export default {
-    components: {
-      IconCode,
-      IconDesktopComputer,
-      IconAdjustments,
-      IconChartPie,
-      BlockFeaturesOffsetGrid,
-      BlockHeadline,
-      BlockFeaturesImageRight,
-      BlockFeaturesImageLeft,
-      IconSparkles,
-      FeatureVertical,
-      IconDocumentDownload,
-      IconCloudDownload,
-      IconScale,
-      IconCalendar,
-      FeatureHorizontal
-    }
+export default {
+  components: {
+    IconCode,
+    IconDesktopComputer,
+    IconAdjustments,
+    IconChartPie,
+    BlockFeaturesOffsetGrid,
+    BlockHeadline,
+    BlockFeaturesImageRight,
+    BlockFeaturesImageLeft,
+    IconSparkles,
+    FeatureVertical,
+    IconDocumentDownload,
+    IconCloudDownload,
+    IconScale,
+    IconCalendar,
+    FeatureHorizontal
   }
+}
 </script>
 
